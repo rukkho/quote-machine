@@ -53,7 +53,7 @@ class QuoteMachine  extends React.Component {
               )            }
           <div className= "d-flex justify-content-between">
            
-            <a target="_blank" id="tweet-quote" href={tweetUrl} className="btn btn-primary"><i class="fa fa-Tweeter"></i>Tweet</a>
+            <a target="_blank" id="tweet-quote" href={tweetUrl} className="btn btn-primary"><i className="fa fa-Twitter"></i>Tweet</a>
             <button  className="btn btn-primary" onClick={this.getRandomIndex} id="new-quote">New Quote</button>
           </div>
         </div>
